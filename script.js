@@ -194,18 +194,30 @@ carrito.addEventListener('click', mostrarCarrito)
 function volverMenu(x){
     let reinicio=document.createElement('button')
     let botonMostrarCarrito=document.createElement('button')
+    let botonPagar=document.createElement('button')
+
+    botonPagar.innerHTML='PAGAR'
+    botonPagar.classList.add('home-carrito')
+
     botonMostrarCarrito.innerHTML='CARRITO'
+    botonMostrarCarrito.classList.add('home-carrito')
+
     reinicio.innerHTML='INICIO'
     reinicio.classList.add('home-carrito') //para editarlo dsps en css
-    botonMostrarCarrito.classList.add('home-carrito')
     reinicio.addEventListener('click',function(){
         container.innerHTML=home
         let carrito=document.getElementById('carrito')
        botonesProductos()
         carrito.addEventListener('click', mostrarCarrito)
     })
+
     botonMostrarCarrito.addEventListener('click',mostrarCarrito)
+    botonPagar.addEventListener('click',function(){
+      swal("¡Gracias por llegar hasta aca!", "La pagina sigue siendo un proyecto, pero va a funcionar completamente algun dia", "success");
+    })
+    
     container.appendChild(reinicio)
+    //esto es para que si estoy en el carrito no muestre el boton de carrito
     x ? null : container.appendChild(botonMostrarCarrito)
 }
 
@@ -412,10 +424,6 @@ Toastify({
 }
 
 
-/* 
-Sweet Alert
-lo dejo comentado por ahora, lo voy a agregar despues
-*/
 
-//swal("Hello world!");
+
 

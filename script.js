@@ -218,7 +218,7 @@ function volverMenu(x){
     
     container.appendChild(reinicio)
     //esto es para que si estoy en el carrito no muestre el boton de carrito
-    x ? null : container.appendChild(botonMostrarCarrito)
+    x ? container.appendChild(botonPagar) : container.appendChild(botonMostrarCarrito)
 }
 
 //funcion que voy a usar varias veces para encontrar productos

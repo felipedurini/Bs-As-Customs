@@ -4,9 +4,9 @@
     {"index":1, "nombre":"remera blanca", "precio":1000, "img":"imagenes/productos/remerasMusculosas/remeraBlanca.jpg"},
      {"index":2, "nombre":"remera negra","precio":1000, "img":"imagenes/productos/remerasMusculosas/remeraNegra.jpg"},
      {"index":3, "nombre":"remera azul","precio":1000, "img":"imagenes/productos/remerasMusculosas/remeraAzul.jpg"},
-     {"index":4, "nombre":"musculosa negra","precio":1000, "img":"imagenes/productos/remerasMusculosas/musculosaNegra.jpg"},
-     {"index":5, "nombre":"musculosa azul","precio":1000, "img":"imagenes/productos/remerasMusculosas/musculosaAzul.jpg"},
-     {"index":6, "nombre":"musculosa blanca","precio":1000, "img":"imagenes/productos/remerasMusculosas/musculosaBlanca.jpg"},
+     {"index":4, "nombre":"musculosa negra","precio":800, "img":"imagenes/productos/remerasMusculosas/musculosaNegra.jpg"},
+     {"index":5, "nombre":"musculosa azul","precio":800, "img":"imagenes/productos/remerasMusculosas/musculosaAzul.jpg"},
+     {"index":6, "nombre":"musculosa blanca","precio":800, "img":"imagenes/productos/remerasMusculosas/musculosaBlanca.jpg"},
       {"index":7, "nombre":"buzo rosa","precio":2000, "img":"imagenes/productos/buzosSueters/buzorosa.jpg"},
        {"index":8, "nombre":"buzo negro","precio":2000, "img":"imagenes/productos/buzosSueters/buzonegro.jpg"},
        {"index":9, "nombre":"buzo verde","precio":2000, "img":"imagenes/productos/buzosSueters/buzoverde.jpg"} ,
@@ -16,7 +16,7 @@
        {"index":13, "nombre":"short negro","precio":1200, "img":"imagenes/productos/shortsJoggings/shortNegro.jpg"},
        {"index":14, "nombre":"short azul","precio":1200, "img":"imagenes/productos/shortsJoggings/shortAzul.jpg"},
        {"index":15, "nombre":"short blanco","precio":1200, "img":"imagenes/productos/shortsJoggings/shortBlanco.jpg"},
-       {"index":16, "nombre":"jogging negro","precio":1200, "img":"imagenes/productos/shortsJoggings/JogNegro.jpg"},
-       {"index":17, "nombre":"jogging gris claro","precio":1200, "img":"imagenes/productos/shortsJoggings/JogGris.jpg"},
-       {"index":18, "nombre":"jogging rojo","precio":1200, "img":"imagenes/productos/shortsJoggings/jogRojo.jpg"}
+       {"index":16, "nombre":"jogging negro","precio":1600, "img":"imagenes/productos/shortsJoggings/JogNegro.jpg"},
+       {"index":17, "nombre":"jogging gris claro","precio":1600, "img":"imagenes/productos/shortsJoggings/JogGris.jpg"},
+       {"index":18, "nombre":"jogging rojo","precio":1600, "img":"imagenes/productos/shortsJoggings/jogRojo.jpg"}
 ]

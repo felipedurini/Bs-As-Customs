@@ -16,26 +16,27 @@ let carritoEmoji=document.getElementById('carrito-icon')
 let info=document.getElementById('informacion')
 //todo el html dentro de body abajo, menos navbar
 let home=`
+
 <div id="portada">
-  <div id="logo">
-  <i id="auto" class="fa fa-car"></i>
-  <h3>Bs As Customs</h3>
-  </div>
+<div id="logo">
+<i id="auto" class="fa fa-car"></i>
+<h3>Bs As Customs</h3>
+</div>
 </div>
 
 
 <div class="items">
-  <h1>Productos</h1>
+<h1>Productos</h1>
 </div>
 
 
 <div id="carouselExampleCaptions" class="carousel slide cursor" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
   <div class="carousel-item active" id="bs">
       <div class="producto">
         <h1 class="titulo">Buzos y Sueters</h1>
@@ -52,62 +53,58 @@ let home=`
     </div>
   </div>
 </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
 </div>
 
 <div class="items">
-        <h1>Carrito</h1>
-      </div>
+<h1>Carrito</h1>
+</div>
 
-      <div id="carrito">
-       <button id="verCarrito">Ver Carrito</button>
-      </div>
+<div id="carrito">
+<button id="verCarrito">Ver Carrito</button>
+</div>
 
-<div class="items">
-  <h1>Informacion</h1>
+<div class="items" id="info">
+<h1>Sobre Nosotros</h1>
 </div>
 <hr>
-<div id="info"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto at vitae cumque facere aperiam nulla corrupti dolore laborum? Quam dolore debitis blanditiis repellat fuga ducimus dolorum eligendi omnis, ipsum nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nostrum odit, aliquid nemo quidem ad magnam numquam quos sapiente praesentium nisi! Aliquid repudiandae earum, debitis rem nemo eum accusantium eveniet?</p></div>
+<div id="info"><h6>Somos una empresa que sabe lo que está a la vanguardia y que ofrece productos que destacan en su calidad y estilo. Como nos importan nuestros clientes, cualquier consulta será bienvenida a través de nuestras redes, en el pie de la página.</h6></div>
 
-<div class="bg-dark text-center text-white">
-  <footer>
-      <div class="container">
-          <div class="row">
-              <div id="direccion" class="col-sm-6">
-                  <h3 id="direccion2">Texto</h3>
-                  <br>
-                 <p id="avenida">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut provident placeat quibusdam hic adipisci, error nesciunt tenetur quam dolorum non libero ab, tempora magni. Fuga alias consectetur corrupti perspiciatis doloribus?</p>
-              </div>
-              <div class="col-sm-6">
-                  <div id="redes">
-                      <h3>Redes Sociales</h3>
-                  </div>
-                      <div class="container p-4">
-                          <!-- Section: Social media -->
-                          <section class="mb-4">
-                            <!-- Facebook -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/PlataformaCinco" role="button"
-                              ><i class="gg-facebook"></i>
-                            </a>
-                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/felipedurini/" role="button"
-                              ><i class="gg-instagram"></i>
-                            </a>
-                            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/plataforma5la" role="button"
-                              ><i class="gg-twitter"></i>
-                            </a>
-              </div>
-              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-          </div>
-          <p class="copyright">¡Gracias por visitarnos!</p>
-      </div>
-  </footer>
+<div class="bg-dark text-center text-white" id="contacto">
+<footer>
+    <div class="container">
+        <div class="row">
+            <div id="direccion" class="col-sm-6">
+                <h3 id="direccion2">¡Gracias por visitarnos!</h3>
+                <br>
+               <p id="avenida">¡No dudes en escribirnos!</p>
+            </div>
+            <div class="col-sm-6">
+                <div id="redes">
+                    <h3>Redes Sociales</h3>
+                </div>
+                    <div class="container p-4">
+                        <!-- Section: Social media -->
+                        <section class="mb-4">
+                          <!-- Facebook -->
+                          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/felipedurini/" role="button"
+                            ><i class="gg-instagram"></i>
+                          </a>
+                          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/felipe-durini-94b883206/" role="button"
+                            ><i class="fa fa-linkedin" id="linkedin" aria-hidden="true"></i>
+                          </a>
+            </div>
+        </div>
+        <p class="copyright">Copyright © Bs As Customs</p>
+    </div>
+</footer>
 </div>`
 
 //traer los porductos desde json
@@ -214,11 +211,16 @@ function volverMenu(x){
     botonMostrarCarrito.addEventListener('click',mostrarCarrito)
     botonPagar.addEventListener('click',function(){
       swal("¡Gracias por llegar hasta aca!", "La pagina sigue siendo un proyecto, pero va a funcionar completamente algun dia", "success");
+      contador=[]
+      container.innerHTML=''
+      actualizarNumCarrito()
+      container.appendChild(reinicio)
     })
     
     container.appendChild(reinicio)
     //esto es para que si estoy en el carrito no muestre el boton de carrito
-    x ? container.appendChild(botonPagar) : container.appendChild(botonMostrarCarrito)
+    if(x){
+    contador.length>0 ? container.appendChild(botonPagar) : container.appendChild(botonMostrarCarrito)}
 }
 
 //funcion que voy a usar varias veces para encontrar productos
@@ -296,7 +298,7 @@ function mostrarProductos(valor, otroValor){
                 toast(`${item} agregado con exito.`)
     }
             )}
-            volverMenu()
+            volverMenu(true)
   }
 
 
@@ -304,7 +306,7 @@ function mostrarProductos(valor, otroValor){
 function mostrarCarrito(){
 if(contador.length===0){
     container.innerHTML='<h1>Su carrito esta vacio</h1>'
-    volverMenu(true)
+    volverMenu()
 }
 else{
     //vacío el body
@@ -368,7 +370,6 @@ class ItemCarrito {
                 cantidad--;
                 costo-=precio
                 div.innerHTML=`<p>${nombreProducto} | Cantidad: ${cantidad} | Precio: $${precio} | Subtotal: $${costo}</p>`
-
                 div.appendChild(botonEliminar)
                 contador.splice(contador.indexOf(encontrarProducto(contador,nombreProducto)),1)
                 actualizarNumCarrito()
@@ -384,7 +385,12 @@ class ItemCarrito {
                 actualizarNumCarrito()
                 listaCarrito[nombreProducto]=cantidad
                 listaCarrito['subtotal'+index]=costo
-                contador.length===0 ? total.innerHTML='' : total.innerHTML='Total: ' +calcularTotal()
+                if(contador.length===0){
+                 total.innerHTML=''
+                container.innerHTML='<h1>Su carrito esta vacio</h1>'
+                volverMenu()}
+                else{
+                  total.innerHTML='Total: ' +calcularTotal()}
                 guardarLocal('contador',JSON.stringify(contador))
                 guardarLocal('listaCarrito',JSON.stringify(listaCarrito))
             }

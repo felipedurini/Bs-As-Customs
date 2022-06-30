@@ -188,7 +188,7 @@ carritoEmoji.addEventListener('click', mostrarCarrito)
 carrito.addEventListener('click', mostrarCarrito)
 
 //esta funcion es para crear un boton que al apretarlo, me lleve a la pagina de inicio. Con 'me lleve a la pagina de inicio' me refiero a:vaciar el body, llenarlo con home y darle funciones a los botones devuelta
-function volverMenu(x){
+function volverMenu(x, y){
     let reinicio=document.createElement('button')
     let botonMostrarCarrito=document.createElement('button')
     let botonPagar=document.createElement('button')
@@ -220,7 +220,7 @@ function volverMenu(x){
     container.appendChild(reinicio)
     //esto es para que si estoy en el carrito no muestre el boton de carrito
     if(x){
-    contador.length>0 ? container.appendChild(botonPagar) : container.appendChild(botonMostrarCarrito)}
+    contador.length>0 && y ? container.appendChild(botonPagar) : container.appendChild(botonMostrarCarrito)}
 }
 
 //funcion que voy a usar varias veces para encontrar productos
@@ -298,7 +298,7 @@ function mostrarProductos(valor, otroValor){
                 toast(`${item} agregado con exito.`)
     }
             )}
-            volverMenu(true)
+            volverMenu(true, false)
   }
 
 
@@ -330,7 +330,7 @@ else{
        }
     }
     //creo el boton para volver al menu
-   volverMenu(true)
+   volverMenu(true, true)
 }
 }
 
